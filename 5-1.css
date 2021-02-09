@@ -56,30 +56,38 @@ header {
 .portfolio {
   width: 100%;
   background-color: #eceff1;
+  text-align: center;
+  color: #000000;
 }
 
 .portfolio-container {
-  width: 920px;
+  padding-bottom: 90px;
   margin: auto;
 }
 
 .portfolio-title {
+  padding-top: 90px;
   font-size: 32px;
-  color: #000000;
-  border-bottom: solid #ec715f;
 }
 
-.portfolio-border {
+.portfolio-title::after {
   content: "";
   display: block;
-  color: #ec715f;
-  margin: 8px auto 0 auto;
-  height: 3px;
   width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.portfolio-body {
+  font-size: 16px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .portfolio-box {
-  margin-top: 30px;
+  width: 920px;
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
 }
@@ -90,6 +98,7 @@ header {
   background-size: cover;
   background-position: center;
 }
+
 .portfolio-image:nth-child(1) {
   background-image: url(img/sketch.jpg);
   margin-right: 10px;
@@ -119,4 +128,59 @@ header {
 
 .portfolio-image:nth-child(6) {
   background-image: url(img/webcamp-mother.png);
+}
+
+.feature {
+  color: #000000;
+  text-align: center;
+  margin: auto;
+}
+
+.feature-container {
+  padding-top: 90px;
+}
+
+.feature-title {
+  font-size: 32px;
+}
+.feature-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.feature-body {
+  margin: 30px auto;
+  font-size: 16px;
+}
+
+.feature-box {
+  width: 320px;
+  display: inline-block;
+  padding-bottom: 90px;
+}
+
+.feature-box:nth-child(1) {
+  margin-right: 10px;
+}
+
+.feature-box:nth-child(2) {
+  margin-right: 10px;
+}
+.feature-box i {
+  height: 60px;
+  font-size: 60px;
+}
+
+.feature-box-title {
+  margin: 10px auto;
+  font-size: 20px;
+}
+
+.feature-box-body {
+  font-size: 16px;
+  text-align: left;
 }
