@@ -184,3 +184,103 @@ header {
   font-size: 16px;
   text-align: left;
 }
+
+.profile {
+  background-color: #eceff1;
+  text-align: center;
+}
+
+.profile-title {
+  padding-top: 90px;
+}
+
+.profile-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 3px;
+  margin: 8px auto 0 auto;
+  background-color: #ec715f;
+}
+
+.profile-body {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.profile-container {
+  padding-top: 30px;
+  padding-bottom: 90px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-container img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+.profile-introduction-left {
+  width: 50%;
+}
+
+.profile-introduction-right {
+  width: 50%;
+  text-align: left;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact h1 {
+  margin-top: 90px;
+  border-bottom: solid 3px #EC715F;
+  padding-bottom: 8px;
+}
+
+.contact p {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.contact-box {
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  padding: 90px;
+}
+
+.contact-box h3{
+  font-size: 20px;
+}
+
+.contact-box-right {
+  width: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box-right p {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.contact-box-left {
+  width: 50%;
+}
+
+footer {
+  background-color: #ec715f;
+  height: 60px;
+}
+
+footer p {
+  font-size: 16px;
+  color: #fafafa;
+  line-height: 60px;
+  text-align: center;
+}
